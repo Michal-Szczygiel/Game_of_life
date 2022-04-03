@@ -20,4 +20,5 @@ Automat komórkowy, [gra w życie](https://en.wikipedia.org/wiki/Conway%27s_Game
     - MOVIE_NAME - nazwa generowanego filmu z symulacji,
     - FRAME_RATE - klatki/sekunde generowange filmu
 
-![](game_of_life.mp4)
+## Przykładowy efekt działania programu:
+![](https://github.com/Michal-Szczygiel/Game_of_life/blob/main/game_of_life.gif)
