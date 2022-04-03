@@ -3,6 +3,7 @@ Co to jest?
 
 Jak się do tego zabrać?
     - uruchom terminal w folderze projektu (pod Windowsem wymagane będzie użycie środowiska linuksowego - WSL),
+    - utwórz folder 'FRAMES' (do tego folderu zapisywane będą kolejne klatki symulacji),
     - użyj komendy: 'make prepare' (zostanie zainstalowany pakiet ffmpeg, konieczne potwierdzenie uprawnień administratora),
     - następnie wpisz: 'make build' (projekt zostanie skompilowany przy pomocy kompilatora gcc),
     - finalnie: 'make run' (program zostanie uruchomiony, folder FRAMES wypełni się klatkami symulacji, powstanie film z symulacją)
