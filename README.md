@@ -1,5 +1,5 @@
 ## Co to jest?
-Automat komórkowy, gra w życie. Projekt sam się kompiluje, sam uruchamia co potrzeba i sam generuje film z symulacji.
+Automat komórkowy, gra w życie. Kompilacja, pobranie niezbędnych programów pomocniczych i generowanie filmu z symulacji są automatyczne.
 
 ## Jak się do tego zabrać?
 - uruchom terminal w folderze projektu (pod Windowsem wymagane będzie użycie środowiska linuksowego - WSL),
