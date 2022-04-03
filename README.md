@@ -3,10 +3,10 @@ Automat komórkowy, [gra w życie](https://en.wikipedia.org/wiki/Conway%27s_Game
 
 ## Jak się do tego zabrać?
 - uruchom terminal w folderze projektu (pod Windowsem wymagane będzie użycie środowiska linuksowego - [WSL](https://docs.microsoft.com/en-us/windows/wsl/install)),
-- utwórz folder **FRAMES** (do tego folderu zapisywane będą kolejne klatki symulacji),
-- użyj komendy: **make prepare** (zostanie zainstalowany pakiet ffmpeg, konieczne potwierdzenie uprawnień administratora),
-- następnie wpisz: **make build** (projekt zostanie skompilowany przy pomocy kompilatora gcc),
-- finalnie: **make run** (program zostanie uruchomiony, folder FRAMES wypełni się klatkami symulacji, powstanie film z symulacją)
+- utwórz folder '**FRAMES**' (do tego folderu zapisywane będą kolejne klatki symulacji),
+- użyj komendy: '**make prepare**' (zostanie zainstalowany pakiet ffmpeg, konieczne potwierdzenie uprawnień administratora),
+- następnie wpisz: '**make build**' (projekt zostanie skompilowany przy pomocy kompilatora gcc),
+- finalnie: '**make run**' (program zostanie uruchomiony, folder FRAMES wypełni się klatkami symulacji, powstanie film z symulacją)
 
 ## Uwagi:
 - make i gcc są niezbędne do skompilowania i uruchomienia projeku (są domyślnie zaistalowane),
@@ -20,4 +20,4 @@ Automat komórkowy, [gra w życie](https://en.wikipedia.org/wiki/Conway%27s_Game
     - MOVIE_NAME - nazwa generowanego filmu z symulacji,
     - FRAME_RATE - klatki/sekunde generowange filmu
 
-![](game_of_life.mpg4)
+![](game_of_life.mp4)
