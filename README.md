@@ -1,5 +1,5 @@
 ## Co to jest?
-Automat komórkowy, gra w życie. Kompilacja, pobranie niezbędnych programów pomocniczych i generowanie filmu z symulacji są automatyczne.
+Automat komórkowy, [gra w życie](https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life). Kompilacja, pobranie niezbędnych programów pomocniczych i generowanie filmu z symulacji są automatyczne.
 
 ## Jak się do tego zabrać?
 - uruchom terminal w folderze projektu (pod Windowsem wymagane będzie użycie środowiska linuksowego - WSL),
