@@ -2,9 +2,8 @@ Co to jest?
     Automat komórkowy, gra w życie. Projekt sam się kompiluje, sam uruchamia co potrzeba i sam generuje film z symulacji.
 
 Jak się do tego zabrać?
-    - uruchom terminal w folderze projektu,
-    - otwórz środowisko linuksowe (WSL),
-    - wpisz: 'make prepare' (zostanie zainstalowany pakiet ffmpeg, konieczne potwierdzenie uprawnień administratora),
+    - uruchom terminal w folderze projektu (pod Windowsem wymagane będzie użycie środowiska linuksowego - WSL),
+    - użyj komendy: 'make prepare' (zostanie zainstalowany pakiet ffmpeg, konieczne potwierdzenie uprawnień administratora),
     - następnie wpisz: 'make build' (projekt zostanie skompilowany przy pomocy kompilatora gcc),
     - finalnie: 'make run' (program zostanie uruchomiony, folder FRAMES wypełni się klatkami symulacji, powstanie film z symulacją)
 
@@ -12,7 +11,7 @@ Uwagi:
     - make i gcc są niezbędne do skompilowania i uruchomienia projeku (są domyślnie zaistalowane),
     - stan początkowy symulacji jest generowany losowo,
     - program kompiluje się i uruchamia pod Linuksem, zdjęcia i film można oglądać z poziomu Windowsa,
-    - co zrobić jak film nie działa? Dziwne, powinien...
+    - co zrobić jak film nie działa? Dziwne, powinien... (kwestia formatu)
     - parametry w pliku Makefile można zmieniać:
         - OUTPUT_FOLDER - folder na klatki symulacji,
         - FRAMES_NUMBER - liczba generowanych klatek,
