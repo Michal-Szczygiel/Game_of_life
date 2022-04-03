@@ -2,7 +2,7 @@
 Automat komórkowy, [gra w życie](https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life). Kompilacja, pobranie niezbędnych programów pomocniczych i generowanie filmu z symulacji są automatyczne.
 
 ## Jak się do tego zabrać?
-- uruchom terminal w folderze projektu (pod Windowsem wymagane będzie użycie środowiska linuksowego - WSL),
+- uruchom terminal w folderze projektu (pod Windowsem wymagane będzie użycie środowiska linuksowego - [WSL](https://docs.microsoft.com/en-us/windows/wsl/install)),
 - utwórz folder 'FRAMES' (do tego folderu zapisywane będą kolejne klatki symulacji),
 - użyj komendy: 'make prepare' (zostanie zainstalowany pakiet ffmpeg, konieczne potwierdzenie uprawnień administratora),
 - następnie wpisz: 'make build' (projekt zostanie skompilowany przy pomocy kompilatora gcc),
